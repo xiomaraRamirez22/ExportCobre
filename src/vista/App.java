@@ -4,7 +4,7 @@ import entidad.ExportCobre;
 
 public class App {
     public static void main(String[] args) {
-        ExportCobre exportacion = new ExportCobre(123, "Nicaragua", "Xiomara Ramirez Santaella");
+        ExportCobre exportacion = new ExportCobre(123, "Nicaragua", "Ana Paz Lopez");
 
         System.out.println("Datos de exportacion");
         System.out.println("Nombre cliente: " + exportacion.getNroExportacion());
